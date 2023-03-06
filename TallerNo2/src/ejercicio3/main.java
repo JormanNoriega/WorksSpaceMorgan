@@ -24,7 +24,7 @@ public class main {
             cantidadIVA = (precioVenta * (porcentajeIVA)/100);
             precioIVA = (precioVenta * (porcentajeIVA)/100) + precioVenta;
         
-            System.out.printf("El precio de venta de esa monda es : %.2f\n", precioVenta);
+            System.out.printf("El precio de venta es : %.2f\n", precioVenta);
             System.out.printf("La cantidad de IVA es : %.2f\n", cantidadIVA);
             System.out.printf("El precio con IVA es : %.2f\n", precioIVA);
             do {
